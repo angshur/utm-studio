@@ -30,5 +30,26 @@ Activation: user generates ≥ 5 valid UTMs in first session OR imports a bulk l
 Week-1 retention proxy: returns and generates UTMs on 2+ distinct days
 Quality metric: % of UTMs passing validation (and improvement over time)
 
+Version 2:
+Quick spec for each (so you can implement fast)
+1) Preview table (minimal)
+Show a small 1-row summary under Step 2 or above Output:
+Source: utmSource
+Medium: utmMedium
+Campaign: utmCampaign
+If empty, show —.
+2) Naming rules drawer
+Collapsed by default with a “Learn naming rules” link/button.
+Inside:
+lowercase only
+use _ or - consistently
+avoid spaces
+short + stable taxonomy
+example patterns
+3) Copy options (more correct than “GA4 vs raw”)
+Copy link (what you already do)
+Copy link (URL-encoded) (encode utm values)
+Copy query only (utm_source=...&utm_medium=...)
+This is genuinely useful, professional, and not misleading.
 
 Time saved: avg seconds/link (optional self-reported)
