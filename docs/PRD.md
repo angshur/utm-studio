@@ -30,5 +30,4 @@ Activation: user generates ≥ 5 valid UTMs in first session OR imports a bulk l
 Week-1 retention proxy: returns and generates UTMs on 2+ distinct days
 Quality metric: % of UTMs passing validation (and improvement over time)
 
-
 Time saved: avg seconds/link (optional self-reported)
